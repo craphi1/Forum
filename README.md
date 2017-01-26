@@ -1,2 +1,3 @@
 # Forum - Stage de Collège
-## autheur: Florian Dambrine (@Lowess)
+#### Autheur: Florian Dambrine (@Lowess)
+#### Date: 26/01/2017
