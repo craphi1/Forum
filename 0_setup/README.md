@@ -13,14 +13,14 @@
   sudo dpkg -i <chemin>/vagrant_1.9.1_x86_64.deb
   ```
 
-### 1.0.2. Logiciels de dévelopement (:star:):
+### 1.0.2. Logiciels de développement (:star:):
 
 * Installer les packets suivants:
   ```
   sudo apt-get -y install git
   ```
 
-* Télécharger l'IDE `Sublime Text 2`:
+* Télécharger l'IDE `Sublime Text 2` (Interface de développement):
   - [Sublime Text 2](https://download.sublimetext.com/sublime-text_build-3126_amd64.deb)
   
 * L'installer:
@@ -35,7 +35,7 @@ Aller sur [Github](https://github.com/) et créer un profil.
 Ensuite dans cliquer sur mon compte (en haut à droite de la page) > Settings > SSH and GPG keys > [Suivre le tutoriel](https://help.github.com/articles/connecting-to-github-with-ssh/)
 
 
-### 1.1. Initialisation du projet `Forum` (:star:):
+## 1.1. Initialisation du projet `Forum` (:star:):
 
 * Créer un espace de travail et se rendre dedans:
   ```
