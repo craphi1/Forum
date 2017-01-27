@@ -49,13 +49,12 @@ L'idée du projet `Forum` est de découvrir les différents aspects de l'informa
   - Mettre en place une infrastructure de type:
 
  ```
-                                     --------------
+                                      --------------
  -----------------------        - - >| Site web 1 | - - -
  |                     |        |    --------------      |          ---------
  | Nginx Load Balancer | - - - -|                        | - - - -> | Mysql |
  |                     |        |    --------------      |          ---------
  -----------------------        - - >| Site web 2 | - - -
-                                     --------------
+                                      --------------
  ``` 
 
- 
