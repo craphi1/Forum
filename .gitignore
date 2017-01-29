@@ -31,7 +31,6 @@ credentials.yml
 .tox
 # Development
 venv
-Vagrantfile
 .vagrant
 tmp/
 core/tmp/
