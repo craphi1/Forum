@@ -1,6 +1,11 @@
 # 3. - Les commandes de base avec `Linux`:
 
-## 3.1.
+## 3.1. Installer `ansible`.
+
+```
+# TODO
+```
+
 ## 3.2. Démarrer la machine virtuelle sera utilisé comme cible à tester:
 
 ```
