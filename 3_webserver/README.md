@@ -11,6 +11,7 @@ vagrant ssh
 ## 3.2. Installer et configurer `nginx` sur le serveur
 ### 3.2.1. Installation
   - Utiliser `apt` pour installer `nginx`
-  - Une fois installé
-### 3.2.2. Configuration
-### 3.2.3. Télécharger le code depuis Git sur le serveur
+   
+### 3.2.2. Configuration du site web
+  - Télécharger le code sur le serveur dans `/var/www/html` en utilisant `git`
+  - Configurer `nginx` pour servir les fichiers HTML contenues dans `/var/www/html`
