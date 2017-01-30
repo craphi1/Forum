@@ -2,4 +2,4 @@
 
 ## 1.1 Réaliser la page web suivante:
 
-![Site Web](/screenshot.png?raw=true)
+![Site Web](/1_webapp/screenshot.png?raw=true)
