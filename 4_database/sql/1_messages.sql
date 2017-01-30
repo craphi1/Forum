@@ -1,8 +1,0 @@
-CREATE TABLE messages (
-    id MEDIUMINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    thread SMALLINT UNSIGNED NOT NULL,
-    subject VARCHAR(60) NOT NULL DEFAULT "Pas de sujet",
-    date DATETIME NOT NULL,
-    author VARCHAR(60) NOT NULL DEFAULT "Mr. personne",
-    text TEXT NOT NULL
-);

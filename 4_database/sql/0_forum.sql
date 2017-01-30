@@ -1,8 +1,0 @@
-CREATE TABLE forum (
-    id SMALLINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-    sujet VARCHAR(255) NOT NULL,
-    auteur VARCHAR(60) NOT NULL,
-    contenu TEXT NOT NULL,
-    date DATETIME NOT NULL,
-    UNIQUE(subject)
-);
