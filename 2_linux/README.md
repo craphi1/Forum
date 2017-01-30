@@ -14,7 +14,7 @@ vagrant up
 vagrant ssh
 ```
 
-## 3.3. Répondre au questions suivantes:
+## 3.3. Répondre aux questions suivantes:
 
 Pour les questions suivantes proposer une commande `Linux` pour répondre au problème:
 
