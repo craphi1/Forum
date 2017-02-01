@@ -1,7 +1,7 @@
 from flask import Flask
 from flask import render_template
 
-import utils
+#import utils
 
 app = Flask(__name__)
 
@@ -14,7 +14,12 @@ def index():
 
 @app.route('/forum', methods=['GET'])
 def forum():
-  return render_template('forum.html', forums)
+  auteurs = [
+    "Mathis",
+    "Florian",
+    "Gregory"
+  ]
+  return render_template('forum.html', auteurs = auteurs)
 
 
 if __name__ == "__main__":
