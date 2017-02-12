@@ -1,4 +1,4 @@
-# Forum - Stage de Collège
+# Forum - Initiation à l'Informatique
 ##### Auteur: Florian Dambrine (@Lowess)
 ##### Date: 26/01/2017
 ----------------------------------------

@@ -25,5 +25,5 @@
         password: "{{ item.password }}"
         priv: 'forum.*:ALL,GRANT'
       with_items:
-        - { user: mathis, password: stage }
+        - { user: forum, password: stage }
         - { user: florian, password: stage }
