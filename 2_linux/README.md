@@ -1,9 +1,13 @@
 # 3. - Les commandes de base avec `Linux`:
 
-## 3.1. Installer `ansible`.
+## 3.1. Installer `ansible`
 
+* Suivre les instructions de d'installation d'(Ansible)[http://docs.ansible.com/ansible/intro_installation.html#latest-releases-via-apt-ubuntu]
 ```
-# TODO
+sudo apt-get install software-properties-common
+sudo apt-add-repository ppa:ansible/ansible
+sudo apt-get update
+sudo apt-get install ansible
 ```
 
 ## 3.2. Démarrer la machine virtuelle sera utilisé comme cible à tester:
