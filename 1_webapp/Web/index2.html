@@ -1,20 +1,37 @@
-<form action="page2.html" method="get">
-    <fieldset>
-        <legend>Informations</legend>
-        <label>Pseudo :</label>
-        <input id="pseudo" type="text" />
-        <br />
-        <label>Sexe :</label>
-        <select id="sexe">
-            <option value="H">Homme</option>
-            <option value="F">Femme</option>
-        </select>
-        <br />
-        <label>Mot de passe :</label>
-        <input id="mdp" type="password" />
+<html>
+    <style type="text/css">
+        .formulaire{
+            font-family:"Comic Sans MS";
+                text-align:center;
+                background-color:lightgrey;
+                margin:auto;
+                width:80%
+        }
+    </style>
+
+
+
+
+
+    <div id="formulaire" class="formulaire">
+        <form action="page2.html" method="get">
+            <h2>Information</h2>
+            <label>Pseudo :</label>
+            <input id="pseudo" type="text" />
+                <br />
+            <label>Sexe :</label>
+            <select id="sexe">
+                <option value="H">Homme</option>
+                <option value="F">Femme</option>
+            </select>
+                <br />
+            <label>Mot de passe :</label>
+            <input id="mdp" type="password" />
+                <br />
+            <label>Cochez si vous n'ete pas un robot:</label>
+            <input id="robot" type="checkbox" />
             <br />
-        <label>Cochez si vous n'ete pas un robot:</label>
-        <input id="robot" type="checkbox" />
-    </fieldset>
-    <input type="submit" value="Envoyer le formulaire" />
-</form>
+            <input type="submit" value="Envoyer le formulaire" />
+        </form>
+    </div>
+</html>

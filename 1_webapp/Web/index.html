@@ -1,43 +1,103 @@
 <html>
-	<div id="header">
-		<fieldset>
-			<h1 style="color:blue;text-align:center"> Forum </h1>
-			<a href="#paragraphe1";style="color:red"> Accueil </a>
+	<style type="text/css">
+			lien {
+				font-family:"Comic Sans MS";
+				color:darkred;
+			}
+			.header {
+				background-color:grey
+
+			}
+			.title{
+				font-size:100;
+				font-family:"Comic Sans MS";
+				color:brown;
+				text-align:center;
+			}
+			.bouton{
+				font-family:"Comic Sans MS";
+				text-align:right;
+			}
+			.footer{
+				font-family:"Comic Sans MS";
+				text-align:center;
+				font-style:italic;
+				background-color:grey;
+			}
+			.menu{
+				margin-top: -175px;
+				margin-left:15px;
+				float:left;
+			}
+			.identi{
+				margin-top:-175px;
+				margin-right:15px;
+				float:right;
+			}
+			.center{
+				font-family:"Comic Sans MS";
+				text-align:center;
+				background-color:lightgrey;
+				margin:auto;
+				width:80%;
+			}
+			.para{
+				background-color:grey;
+				font-size:15;
+				margin:auto;
+				width:75%;
+			}
+			
+			#header{
+				height:15%;
+			}
+			#center{
+				
+				height:80%;
+			}
+			#footer{
+				height:5%;
+			}
+
+	</style>
+	<div id="header" class="header" >
+			<h1 class="title"> Forum </h1>
+		<div id="menu" class="menu">
+			<a href="#paragraphe1"; class="lien" > Accueil </a>
 				<br />
-			<a href="#paragraphe2";style="color:red"> Forum </a>
+			<a href="#paragraphe2"; class="lien"> Forum </a>
 				<br />
-			<a href="#paragraphe3";style="color:red"> A-Propos </a>
-			<form action="index2.html" method="get"style="text-align:right">
+			<a href="#paragraphe3"; class="lien"> A-Propos </a>
+		</div>
+		<div id="identi" class="identi">
+			<form action="index2.html" method="get"class="bouton">
     			<input type="submit" value="Enregister-vous"/>
 			</form>
-			<form action="index3.html" method="get"style="text-align:right">
+			<form action="index3.html" method="get"class="bouton">
     			<input type="submit" value="Connecter-vous"/>
 			</form>
-		</fieldset>
+		</div>
 	</div>
-	<div id="center";>
-			<div id="paragraphe1">
-				<fieldset>
-					<h1 style="color:grey;text-align:center"> Accueil </h1>
+		<div id="center" class="center";>
+			<div id="paragraphe1" class="para">
+
+					<h1> Accueil </h1>
 					<p>Bienvenu sur ce Forum !</p>
-				</fieldset>
+
 			</div>
-			<div id="paragraphe2">
-				<fieldset>
-					<h1 style="color:grey;text-align:center"> Forum </h1>
+			<div id="paragraphe2" class="para">
+
+					<h1> Forum </h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fringilla mi ex, ac blandit nisl posuere vestibulum. Duis pulvinar, turpis vel blandit sagittis, metus velit consectetur metus, id bibendum dui purus tempor est. Praesent vitae auctor tortor. Nam sit amet dui vitae purus scelerisque sodales. Etiam at lorem nec elit ultrices bibendum. Mauris sit amet egestas lacus, eget accumsan lacus. Fusce a rhoncus ex. In sed vestibulum mi, in facilisis nibh. Curabitur bibendum, leo eget cursus auctor, augue nunc condimentum dui, a auctor elit turpis ut velit. Nunc ultricies dui a ante finibus, sed maximus ligula placerat. Aenean mauris sem, lacinia quis convallis eu, pharetra ut justo. Vestibulum efficitur metus quis suscipit interdum.</p>
-				</fieldset>
+
 			</div>
-			<div id="paragraphe3">
-				<fieldset>
-					<h1 style="color:grey;text-align:center"> A-Propos </h1>
+			<div id="paragraphe3" class="para">
+
+					<h1> A-Propos </h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fringilla mi ex, ac blandit nisl posuere vestibulum. Duis pulvinar, turpis vel blandit sagittis, metus velit consectetur metus, id bibendum dui purus tempor est. Praesent vitae auctor tortor. Nam sit amet dui vitae purus scelerisque sodales. Etiam at lorem nec elit ultrices bibendum. Mauris sit amet egestas lacus, eget accumsan lacus. Fusce a rhoncus ex. In sed vestibulum mi, in facilisis nibh. Curabitur bibendum, leo eget cursus auctor, augue nunc condimentum dui, a auctor elit turpis ut velit. Nunc ultricies dui a ante finibus, sed maximus ligula placerat. Aenean mauris sem, lacinia quis convallis eu, pharetra ut justo. Vestibulum efficitur metus quis suscipit interdum.</p>
-				</fieldset>
 			</div>	
 	</div>
-	<div id="footer">
-		<fieldset>
-			<h5 style="text-align:center"> Create by Castaigne Raphaël</h5>
-		</fieldset>
+	<div id="footer">		
+			<h5 class="footer"> Create by Castaigne Raphaël</h5>
 	</div>		
 </html>
