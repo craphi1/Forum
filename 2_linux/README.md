@@ -24,17 +24,19 @@ Pour les questions suivantes proposer une commande `Linux` pour répondre au pro
 
 * Vérifier la taille du disque dur: 
 ```
-$ ?
+$ df -h         40G
 ```
         
 * Se déplacer dans le dossier `/opt/videogames`:    
 ```
-$ ?
+$ cd /opt/videogames
+
 ```
 
 * Créer les dossiers `/opt/videogames/ps4`  et `/opt/videogames/nintendo`:
 ```
-$ ?
+$ mkdir /opt/videogames/ps4
+$ mkdir /opt/videogames/nintendo
 ```
   
 * Utiliser un éditeur de texte pour créer le fichier `/opt/videogames/ps4/sonic.info` et écrire les informations suivantes:
@@ -45,7 +47,7 @@ Sonic possède un éventail de mouvements spéciaux sans cesse renouvelés et am
 ```
 
 ```
-$ ?
+$ nano
 ```
 
 * Utiliser un éditeur de texte pour créer le fichier `/opt/videogames/nintendo/mario.info` et écrire les informations suivantes:
@@ -57,7 +59,7 @@ Les sources divergent quant à l'origine du patronyme. Le nom de Mario aurait é
 ```
 
 ```
-$ ?
+$ nano
 ```
 
 > Le système contient 4 utilisateurs:
@@ -69,43 +71,43 @@ $ ?
 
 * Comment changer d'utilisateur pour devenir `luigi`
 ```
-$ ?
-```
+$ sudo su luigi
   
 * Seul `mario` peut écrire dans le fichier `/opt/videogames/nintendo/mario.info`. Tous les autres peuvent le lire:
 ```
-$ ?
+$chmod 704 /opt/videogames/nintendo/mario.info
+$sudo chown mario /opt/videogames/nintendo/mario.info
+
 ```
 
 * `sonic` autorise `tails` à lire le fichier `/opt/videogames/ps4/sonic.info`. Par contre les autres ne peuvent que voir le contenu du dossier `/opt/videogames/ps4/` (ils ne peuvent ni les lire, ni les écrire).
 ```
-$ ?
+$ chmod 704 /opt/videogames/ps4/sonic.info
+$sudo groupadd tails
+$sudo usermod -a -G tails tails
+$sudo chown sonic:tails /opt/videogames/ps4/sonic.info
 ```
 
 * Donner une commande équivalente à:
 ```
-cd /home/vagrant
+cd /
+cd wr/vagrant
 ```
 ```
-$ ?
+$ 
 ```
   
 * Combien de lignes contient le fichier `/home/vagrant/videogames.txt
 ```
-$ ?
+$ wc -l :home:vagrant:videogames.txt               87584
 ```
   
 * Rechercher combien de fois le mot `Mario` apparait dans le fichir `/home/vagrant/videogames.txt
 ```
-$ ?
+$ grep -c -i mario /home/vagrant/videogames.txt
 ```
 
 * A quelle(s) ligne(s) le jeu `Secret of Mana` apparait dans le fichir `/home/vagrant/videogames.txt
 ```
-$ ?
-```
-
-* A quelle(s) ligne(s) le jeu `Secret of Mana` apparait dans le fichir `/home/vagrant/videogames.txt
-```
-$ ?
+$ grep -n 'Secret of Mana' /home/vagrant/videogames.txt               aux lignes 51661 et 86700
 ```

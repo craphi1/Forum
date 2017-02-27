@@ -1,6 +1,6 @@
 ---
 - name: Setup Tutorial
-  hosts: tutorial
+  hosts: localhost
   gather_facts: yes
 
   tasks:

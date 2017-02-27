@@ -1,115 +1,60 @@
 <html>
+	<head>
+	    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-	<style type="text/css">
-			.lien {
-				font-family:"Comic Sans MS";
-				color:#B83A1B;
-			}
-			.header {
-				background-color:#DCDCDC;
-				border-radius:15px;
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-			}
-			.title{
-				font-size:100;
-				font-family:"Comic Sans MS";
-				color:#1A1D26;
-				text-align:center;
-			}
-			.bouton{
-				font-family:"Comic Sans MS";
-				text-align:right;
-			}
-			.footer{
-				font-family:"Comic Sans MS";
-				text-align:center;
-				font-style:italic;
-				background-color:#DCDCDC;
-				border-radius:15px;
-			}
-			.menu{
-				margin-top: -175px;
-				margin-left:15px;
-				float:left;
-			}
-			.identi{
-				margin-top:-175px;
-				margin-right:15px;
-				float:right;
-			}
-			.center{
-				font-family:"Comic Sans MS";
-				text-align:center;
-				margin:auto;
-				width:80%;
-				border-radius:15px;
-			}
-			.text{
-				margin:auto;
-				width:75%;
-				border-radius:15px;
-				background-color:#DCDCDC;
-			}
-			.para{
-				font-size:15;
-				color:#1A1D26;
-			}
-			.title2{
-				font-size:35;
-				color:#223645;
-			}
-			
-			#header{
-				height:15%;
-			}
-			#center{
-				
-				height:80%;
-			}
-			#footer{
-				height:5%;
-			}
+	<link rel="stylesheet" href="css/style.css">
 
-	</style>
-	<div id="header" class="header" >
-			<h1 class="title"> Forum </h1>
-		<div id="menu" class="menu">
-			<a href="#paragraphe1"; class="lien" > Accueil </a>
-				<br />
-			<a href="#paragraphe2"; class="lien"> Forum </a>
-				<br />
-			<a href="#paragraphe3"; class="lien"> A-Propos </a>
-		</div>
-		<div id="identi" class="identi">
-			<form action="index2.html" method="get"class="bouton">
-    			<input type="submit" value="Enregister-vous"/>
-			</form>
-			<form action="index3.html" method="get"class="bouton">
-    			<input type="submit" value="Connecter-vous"/>
-			</form>
-		</div>
-	</div>
-			<br />
-		<div id="center" class="center";>
-			<div id="paragraphe1" class="text">
+	</head>
+		<body>
 
-					<h1 class="title2"> Accueil </h1>
-					<p class="para">Bienvenu sur ce Forum !</p>
+			<nav class="navbar navbar-inverse " >
+		        <ul class="nav nav-pills">
+			    	<li role="presentation" class="active alignement">
+			  			<a href="forum.html">Forum</a>
+					</li>
+					<li role="presentation" class="alignement">
+				  		<a href="#paragraphe1" class"lien"><span class="glyphicon glyphicon-home"></span> Accueil</a>
+					</li>
+					<li role="presentation" class="alignement">
+						<a href="#paragraphe2" class"lien"><span class="glyphicon glyphicon-comment"></span> Forum</a>
+					</li>
+					<li role="presentation" class="alignement">
+					 	<a href="#paragraphe3" class"lien"><span class="glyphicon glyphicon-leaf"></span> A-propos</a>
+					</li>
+					<form action="enregistrement.html" method="get"class="bouton">
+					    <input type="submit" value="Enregister-vous"/>
+					</form>
+					<form action="connection.html" method="get"class="bouton ">
+					    <input type="submit" value="Connecter-vous"/>
+					</form>
+			    </ul>
+		    </nav>
+					<br />
+				<div id="center" class="center";>
+					<div id="paragraphe1" class="text">
 
+							<h1 class="title2"><span class="glyphicon glyphicon-home"></span> Accueil </h1>
+							<p class="para">Bienvenu sur ce Forum !</p>
+
+					</div>
+					<div id="paragraphe2" class="text">
+
+							<h1 class="title2"><span class="glyphicon glyphicon-comment"></span> Forum </h1>
+							<p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fringilla mi ex, ac blandit nisl posuere vestibulum. Duis pulvinar, turpis vel blandit sagittis, metus velit consectetur metus, id bibendum dui purus tempor est. Praesent vitae auctor tortor. Nam sit amet dui vitae purus scelerisque sodales. Etiam at lorem nec elit ultrices bibendum. Mauris sit amet egestas lacus, eget accumsan lacus. Fusce a rhoncus ex. In sed vestibulum mi, in facilisis nibh. Curabitur bibendum, leo eget cursus auctor, augue nunc condimentum dui, a auctor elit turpis ut velit. Nunc ultricies dui a ante finibus, sed maximus ligula placerat. Aenean mauris sem, lacinia quis convallis eu, pharetra ut justo. Vestibulum efficitur metus quis suscipit interdum.</p>
+
+					</div>
+					<div id="paragraphe3" class="text">
+
+							<h1 class="title2"><span class="glyphicon glyphicon-leaf"></span> A-Propos </h1>
+							<p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fringilla mi ex, ac blandit nisl posuere vestibulum. Duis pulvinar, turpis vel blandit sagittis, metus velit consectetur metus, id bibendum dui purus tempor est. Praesent vitae auctor tortor. Nam sit amet dui vitae purus scelerisque sodales. Etiam at lorem nec elit ultrices bibendum. Mauris sit amet egestas lacus, eget accumsan lacus. Fusce a rhoncus ex. In sed vestibulum mi, in facilisis nibh. Curabitur bibendum, leo eget cursus auctor, augue nunc condimentum dui, a auctor elit turpis ut velit. Nunc ultricies dui a ante finibus, sed maximus ligula placerat. Aenean mauris sem, lacinia quis convallis eu, pharetra ut justo. Vestibulum efficitur metus quis suscipit interdum.</p>
+					</div>	
 			</div>
-			<div id="paragraphe2" class="text">
-
-					<h1 class="title2"> Forum </h1>
-					<p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fringilla mi ex, ac blandit nisl posuere vestibulum. Duis pulvinar, turpis vel blandit sagittis, metus velit consectetur metus, id bibendum dui purus tempor est. Praesent vitae auctor tortor. Nam sit amet dui vitae purus scelerisque sodales. Etiam at lorem nec elit ultrices bibendum. Mauris sit amet egestas lacus, eget accumsan lacus. Fusce a rhoncus ex. In sed vestibulum mi, in facilisis nibh. Curabitur bibendum, leo eget cursus auctor, augue nunc condimentum dui, a auctor elit turpis ut velit. Nunc ultricies dui a ante finibus, sed maximus ligula placerat. Aenean mauris sem, lacinia quis convallis eu, pharetra ut justo. Vestibulum efficitur metus quis suscipit interdum.</p>
-
+			<div>		
+					<h5 class="footer"> Create by Castaigne Raphaël</h5>
 			</div>
-			<div id="paragraphe3" class="text">
-
-					<h1 class="title2"> A-Propos </h1>
-					<p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In fringilla mi ex, ac blandit nisl posuere vestibulum. Duis pulvinar, turpis vel blandit sagittis, metus velit consectetur metus, id bibendum dui purus tempor est. Praesent vitae auctor tortor. Nam sit amet dui vitae purus scelerisque sodales. Etiam at lorem nec elit ultrices bibendum. Mauris sit amet egestas lacus, eget accumsan lacus. Fusce a rhoncus ex. In sed vestibulum mi, in facilisis nibh. Curabitur bibendum, leo eget cursus auctor, augue nunc condimentum dui, a auctor elit turpis ut velit. Nunc ultricies dui a ante finibus, sed maximus ligula placerat. Aenean mauris sem, lacinia quis convallis eu, pharetra ut justo. Vestibulum efficitur metus quis suscipit interdum.</p>
-			</div>	
-	</div>
-	<div id="footer">		
-			<h5 class="footer"> Create by Castaigne Raphaël</h5>
-	</div>		
+		<body>	
 </html>
